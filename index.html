@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS</title>
+
+</head>
+<body>
+    <div class="button1">
+        <h1>Red</h1>
+    </div>
+    <div class="button2">
+        <h1>white</h1>
+    </div>
+</body>
+<script src="./hard.js"></script>
+<style>
+.red{
+    background-color: rgb(255, 0, 4);
+}
+.white{
+    background-color: rgb(255, 255, 255);
+}
+
+.button1{
+    border-style: solid;
+    /* border: rebeccapurple; */
+    background: linear-gradient(180deg, red, #b40000);
+    border-radius: 18px;
+    width: 49.5%;
+    text-align: center;
+    box-shadow: -1px 1px 4px 1px #0000008a;
+
+}
+
+.button2 {
+    border-style: solid;
+    /* border: rebeccapurple; */
+    background: linear-gradient(180deg, rgb(255, 255, 255), #ababac);
+    border-radius: 18px;
+    width: 49.5%;
+    text-align: center;
+    box-shadow: -1px 1px 4px 1px #0000008a;
+
+}
+
+body{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+</style>
+</html>
